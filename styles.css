@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+p{
+    max-width: 450px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin: auto;
+    margin-block: 10px;
+
+}
+h3{
+    font-family: Figtree;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.625rem;
+    color: #ffffff;
+    text-align: center;
+    margin-block: 30px;
+    padding-inline: 50px;
+}
+h4{
+    position: relative;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    padding-inline: 5%;
+}
+button{
+    display: block;
+    width: 70%;
+    font-weight: 500;
+    background: #05ff7e;
+    border: none;
+    font-size: 1rem;
+    border-radius: 9px;
+    padding-block: 15px;
+    margin-inline: auto;
+}
+.for-h4 h4::before{
+    content: "";
+    width: 25%;
+    height: 1px;
+    background: #C7CED3;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.for-h4 h4::after{
+    content: "";
+    width: 25%;
+    height: 1px;
+    background: #C7CED3;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.token-select button{
+    display: flex;
+    gap: 8px;
+    padding-block: 10px;
+    width: 40%;
+    align-items: center;
+    background: #C7CED3;
+    justify-content: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form{
+    max-width: 600px;
+    margin: 10% auto;
+    
+}
+.first{
+    background: linear-gradient(180deg,#05ff7e -4.32%,#2a2a2b 91.56%);
+    border-radius: 24px 24px 0 0;
+    border: 6px solid white;
+}
+.for-h4{
+    padding-inline: 5%;
+    margin-block: 15px;
+}
+.token-select{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+hr{
+    background: #C7CED3;
+    width: 90%;
+    margin: auto;
+    margin-block: 10px;
+}
+.for-USDT{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    
+}
+.for-USDT .row{
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.04);
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+input{
+    background: transparent;
+    border: none;
+    
+}
+.token-calculation{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
